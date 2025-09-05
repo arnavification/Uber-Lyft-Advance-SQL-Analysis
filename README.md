@@ -37,19 +37,6 @@ Instead of just writing random queries, this project was structured like a **mod
 * `product_id` → Internal Uber/Lyft product type identifier
 * `name` → Visible ride type (e.g., UberPool, UberXL, Lyft Lux)
 
----
-
-##  Project Structure
-
-```
-uber-lyft-sql-project/
-│── README.md          # Project documentation (this file)
-│── queries.sql        # All SQL queries used in this project
-│── schema.sql         # Table creation and parsing schema
-│── data/
-│   ├── rides.csv      # Full dataset (large file, downloadable only)
-│   └── rides_sample.csv # Sample dataset (for quick GitHub preview)
-```
 
 ---
 
